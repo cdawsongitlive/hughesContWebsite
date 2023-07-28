@@ -67,7 +67,7 @@ function ContentCardsSection(props) {
         />
         <Grid container={true} justifyContent="center" spacing={4}>
           {items.map((item, index) => (
-            <Grid item={true} xs={14} md={12} lg={6} key={index}>
+            <Grid item={true} xs={12} md={6} lg={6} key={index}>
               <Card>
                 <Link href={item.url} passHref={true}>
                   <CardActionArea component="a">
