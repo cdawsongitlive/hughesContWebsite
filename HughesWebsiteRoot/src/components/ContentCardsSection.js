@@ -26,28 +26,28 @@ function ContentCardsSection(props) {
       image:
         "https://drive.google.com/uc?export=view&id=1iWLhfq9pnlZNf0nNdaL6_wTfl1ffGCiy",
       title: "Finish Basements",
-      url: "/post/golden-gate",
+	  url: "/",
     },
     {
       image:
         "https://drive.google.com/uc?export=view&id=1-lbU74zAQOs8WJYHGW6-e44WPhfcX9BT",
       title: "Outdoor Decks",
+	  url: "/",
 
-      url: "/post/beach",
     },
     {
       image:
         "https://drive.google.com/uc?export=view&id=19PUlsQUWYc6gJUSxPlzYVK0J2RaRfdmS",
       title: "Metal Studs and Drywall",
-
-      url: "/post/road",
+	  url: "/",
+   
     },
     {
       image:
         "https://drive.google.com/uc?export=view&id=1CKZEg086O8inmJRI-DacNZn45OHgToql",
       title: "Kitchen and Bath",
-
-      url: "/post/ballons",
+	  url: "/",
+  
     },
   ];
 
