@@ -13,7 +13,7 @@ function IndexPage(props) {
       <Navbar
         color="primary"
         logo="https://drive.google.com/uc?export=view&id=10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd"
-        logoInverted="https://uploads.divjoy.com/logo-white.svg"
+        logoInverted="https://drive.google.com/uc?export=view&id=10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd"
       />
       <HeroSection
         bgColor="default"
