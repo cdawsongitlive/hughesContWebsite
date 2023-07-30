@@ -56,7 +56,23 @@ function Navbar(props) {
               </a>
             </Link>
             <div className={classes.spacer} />
-            <Hidden mdUp={true} implementation="css" />
+            <Hidden mdUp={true} implementation="css">
+              {/* Drawer Icon and Navigation Links */}
+            </Hidden>
+            <Hidden smDown={true} implementation="css">
+              {/* Desktop Navigation Links */}
+              <Link href="/" passHref={true}>
+                <a>
+                  <span>Home</span>
+                </a>
+              </Link>
+              <Link href="/contact" passHref={true}>
+                <a>
+                  <span>Contact Us</span>
+                </a>
+              </Link>
+              {/* Rest of the code for auth, dark mode, etc. */}
+            </Hidden>
           </Toolbar>
         </Container>
       </AppBar>
@@ -65,3 +81,4 @@ function Navbar(props) {
 }
 
 export default Navbar;
+/*changed to test*/
