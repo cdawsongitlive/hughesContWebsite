@@ -19,7 +19,7 @@ function Meta(props) {
   // Default meta values for current page (override with props)
   const defaultPageMeta = {
     // Page title
-    title: "Hughes Contracting,
+    title: "Hughes Contracting",
     // Page description
     description: "Hughes Contracting",
     // Social share image (create this file in /public/images/)
