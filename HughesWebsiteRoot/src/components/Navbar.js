@@ -20,6 +20,13 @@ const useStyles = makeStyles((theme) => ({
   spacer: {
     flexGrow: 1,
   },
+  link: {
+    color: "#ffffff", // White color for the links
+    fontSize: "18px", // Large font size
+    fontWeight: "bold", // Bold text
+    margin: "0 15px", // Properly spaced out links
+    textDecoration: "none", // Remove underline
+  },
 }));
 
 function Navbar(props) {
@@ -62,14 +69,10 @@ function Navbar(props) {
             <Hidden smDown={true} implementation="css">
               {/* Desktop Navigation Links */}
               <Link href="/" passHref={true}>
-                <a>
-                  <span>Home</span>
-                </a>
+                <a className={classes.link}>Home</a>
               </Link>
               <Link href="/contact" passHref={true}>
-                <a>
-                  <span>Contact Us</span>
-                </a>
+                <a className={classes.link}>Contact Us</a>
               </Link>
               {/* Rest of the code for auth, dark mode, etc. */}
             </Hidden>
@@ -81,4 +84,3 @@ function Navbar(props) {
 }
 
 export default Navbar;
-/*changed to test*/
