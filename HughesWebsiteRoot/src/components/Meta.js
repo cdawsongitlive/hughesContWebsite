@@ -9,7 +9,8 @@ function Meta(props) {
   // Meta values that are the same across all pages
   const globalMeta = {
     // Site name
-    siteName: "Hughes Contracting",
+
+    siteName: "www.hughes-contracting.com",
     // Your production domain (example: https://myapp.com)
     domain: "",
     // Your Twitter handle (example: @divjoy)
@@ -21,7 +22,9 @@ function Meta(props) {
     // Page title
     title: "Hughes Contracting",
     // Page description
+
     description: "Hughes Contracting",
+
     // Social share image (create this file in /public/images/)
     image: "/images/social.png",
     // Page type (see https://ogp.me/#types)
