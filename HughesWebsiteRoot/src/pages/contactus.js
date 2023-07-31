@@ -12,7 +12,7 @@ function ContactusPage(props) {
         logo="https://drive.google.com/uc?export=view&id=10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd"
         logoInverted="https://drive.google.com/uc?export=view&id=10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd"
       />
-      <ContactSection
+      <ContactSection2
         bgColor="default"
         size="medium"
         bgImage=""
