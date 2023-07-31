@@ -24,7 +24,7 @@ function IndexPage(props) {
         image="https://drive.google.com/uc?export=view&id=1d4qXcDAgCwgsInKXdmuH4DvRg9nBT6C8"
         buttonText="Get a Quote!"
         buttonColor="primary"
-        buttonPath="\"
+        buttonPath="\contactus"
       />
       <ContentCardsSection
         bgColor="primary"
