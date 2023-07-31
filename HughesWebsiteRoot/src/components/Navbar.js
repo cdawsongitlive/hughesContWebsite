@@ -71,7 +71,9 @@ function Navbar(props) {
               <Link href="/" passHref={true}>
                 <a className={classes.link}>Home</a>
               </Link>
+
               <Link href="/contactus" passHref={true}>
+
                 <a className={classes.link}>Contact Us</a>
               </Link>
               {/* Rest of the code for auth, dark mode, etc. */}
