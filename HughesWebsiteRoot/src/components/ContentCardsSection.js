@@ -13,7 +13,7 @@ import SectionHeader from "components/SectionHeader";
 
 const useStyles = makeStyles((theme) => ({
   media: {
-    height: 250,
+    height: 200,
     
   },
 }));
@@ -26,7 +26,7 @@ function ContentCardsSection(props) {
       image:
         "https://drive.google.com/uc?export=view&id=1X2FmyGGhcGDHyz92yI5ramFBbYzuEGq2",
       title: "Finish Basements",
-	  url: "/",
+	  url: "/contacus",
     },
     {
       image:
@@ -38,7 +38,7 @@ function ContentCardsSection(props) {
     {
       image:
         "https://drive.google.com/uc?export=view&id=1X2FmyGGhcGDHyz92yI5ramFBbYzuEGq2",
-      title: "Metal Studs and Drywall",
+      title: "Metal Studs",
 	  url: "/",
    
     },
