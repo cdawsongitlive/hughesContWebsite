@@ -36,7 +36,7 @@ function IndexPage(props) {
       />
       <ContactSection
         bgColor="default"
-        size="medium"
+        size="small"
         bgImage=""
         bgImageOpacity={1}
         title="Contact Us"
