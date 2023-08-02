@@ -4,9 +4,18 @@ import Container from "@material-ui/core/Container";
 import Toolbar from "@material-ui/core/Toolbar";
 import Link from "next/link";
 import Hidden from "@material-ui/core/Hidden";
+import IconButton from "@material-ui/core/IconButton";
+import MenuIcon from "@material-ui/icons/Menu";
+import Button from "@material-ui/core/Button";
+import Box from "@material-ui/core/Box";
+import NightsStayIcon from "@material-ui/icons/NightsStay";
+import WbSunnyIcon from "@material-ui/icons/WbSunny";
+import Drawer from "@material-ui/core/Drawer";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemText from "@material-ui/core/ListItemText";
 import { makeStyles } from "@material-ui/core/styles";
 import Section from "components/Section";
-import { useAuth } from "util/auth";
 import { useDarkMode } from "util/theme";
 
 const useStyles = makeStyles((theme) => ({
@@ -20,19 +29,11 @@ const useStyles = makeStyles((theme) => ({
   spacer: {
     flexGrow: 1,
   },
-  link: {
-    color: "#ffffff", // White color for the links
-    fontSize: "18px", // Large font size
-    fontWeight: "bold", // Bold text
-    margin: "0 15px", // Properly spaced out links
-    textDecoration: "none", // Remove underline
-  },
 }));
 
 function Navbar(props) {
   const classes = useStyles();
 
-  const auth = useAuth();
   const darkMode = useDarkMode();
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [menuState, setMenuState] = useState(null);
@@ -64,23 +65,115 @@ function Navbar(props) {
             </Link>
             <div className={classes.spacer} />
             <Hidden mdUp={true} implementation="css">
-              {/* Drawer Icon and Navigation Links */}
+              <IconButton
+                onClick={() => {
+                  setDrawerOpen(true);
+                }}
+                color="inherit"
+              >
+                <MenuIcon />
+              </IconButton>
             </Hidden>
             <Hidden smDown={true} implementation="css">
-              {/* Desktop Navigation Links */}
-              <Link href="/" passHref={true}>
-                <a className={classes.link}>Home</a>
+              <Link href="/about" passHref={true}>
+                <Button component="a" color="inherit">
+                  About
+                </Button>
               </Link>
-
-              <Link href="/contactus" passHref={true}>
-
-                <a className={classes.link}>Contact Us</a>
+              <Link href="/pricing" passHref={true}>
+                <Button component="a" color="inherit">
+                  Pricing
+                </Button>
               </Link>
-              {/* Rest of the code for auth, dark mode, etc. */}
+              <Link href="/faq" passHref={true}>
+                <Button component="a" color="inherit">
+                  FAQ
+                </Button>
+              </Link>
+              <Button
+                color="inherit"
+                component="a"
+                href="https://app.mysite.com/auth/signin"
+              >
+                Sign in
+              </Button>
+              <Box component="span" ml={1}>
+                <Button
+                  variant="contained"
+                  color="primary"
+                  component="a"
+                  href="https://app.mysite.com/auth/signup"
+                >
+                  Sign up
+                </Button>
+              </Box>
+              <IconButton
+                color="inherit"
+                onClick={darkMode.toggle}
+                style={{ opacity: 0.6 }}
+              >
+                {darkMode.value && <NightsStayIcon />}
+
+                {!darkMode.value && <WbSunnyIcon />}
+              </IconButton>
             </Hidden>
           </Toolbar>
         </Container>
       </AppBar>
+      <Drawer
+        anchor="right"
+        open={drawerOpen}
+        onClose={() => setDrawerOpen(false)}
+      >
+        <List
+          className={classes.drawerList}
+          onClick={() => setDrawerOpen(false)}
+        >
+          <Link href="/about" passHref={true}>
+            <ListItem component="a" button={true}>
+              <ListItemText>About</ListItemText>
+            </ListItem>
+          </Link>
+          <Link href="/faq" passHref={true}>
+            <ListItem component="a" button={true}>
+              <ListItemText>Pricing</ListItemText>
+            </ListItem>
+          </Link>
+          <Link href="/about" passHref={true}>
+            <ListItem component="a" button={true}>
+              <ListItemText>FAQ</ListItemText>
+            </ListItem>
+          </Link>
+          <ListItem
+            button={true}
+            component="a"
+            href="https://app.mysite.com/auth/signin"
+          >
+            <ListItemText>Sign in</ListItemText>
+          </ListItem>
+          <ListItem>
+            <Button
+              variant="contained"
+              color="primary"
+              component="a"
+              href="https://app.mysite.com/auth/signup"
+            >
+              Sign up
+            </Button>
+          </ListItem>
+          <ListItem>
+            <IconButton
+              color="inherit"
+              onClick={darkMode.toggle}
+              style={{ opacity: 0.6 }}
+            >
+              {darkMode.value && <NightsStayIcon />}
+
+              {!darkMode.value && <WbSunnyIcon />}
+            </IconButton>
+          </ListItem>
+        </List>
+      </Drawer>
     </Section>
   );
 }
