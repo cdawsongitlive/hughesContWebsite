@@ -135,7 +135,7 @@ export const ThemeProvider = (props) => {
     isDarkModeStored === undefined ? prefersDarkMode : isDarkModeStored;
 
   // Get MUI theme object
-  const themeName = isDarkMode ? "dark" : "light";
+  const themeName = isDarkMode ? "light" : "light";
   const theme = getTheme(themeName);
 
   // Add toggle function to theme object
