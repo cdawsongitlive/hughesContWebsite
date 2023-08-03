@@ -13,7 +13,8 @@ import SectionHeader from "components/SectionHeader";
 
 const useStyles = makeStyles((theme) => ({
   media: {
-    height: 200,
+    height: 250,
+
   },
 }));
 
@@ -25,28 +26,28 @@ function ContentCardsSection(props) {
       image:
         "https://drive.google.com/uc?export=view&id=1EBUqU5lvTAbxGgelU289bb-ZqZI3CIRa",
       title: "Finish Basements",
-      url: "/post/golden-gate",
+      url: "/",
     },
     {
       image:
-        "https://drive.google.com/uc?export=view&id=1EBUqU5lvTAbxGgelU289bb-ZqZI3CIRa",
-      title: "Outdoor Decks",
+        "https://drive.google.com/uc?export=view&id=1lJAqWNzt1_rPIrHlXn0OFBXK_cP4mzgA",
+      title: "Decks",
 
-      url: "/post/beach",
+      url: "/",
     },
     {
       image:
-        "https://drive.google.com/uc?export=view&id=1EBUqU5lvTAbxGgelU289bb-ZqZI3CIRa",
+        "https://drive.google.com/uc?export=view&id=1fig1j7UdW4mObADc3yCdlPL7oIKb0IY-",
       title: "Metal Studs and Drywall",
 
-      url: "/post/road",
+      url: "/",
     },
     {
       image:
-        "https://drive.google.com/uc?export=view&id=1EBUqU5lvTAbxGgelU289bb-ZqZI3CIRa",
+        "https://drive.google.com/uc?export=view&id=1X2FmyGGhcGDHyz92yI5ramFBbYzuEGq2",
       title: "Kitchen and Bath",
 
-      url: "/post/ballons",
+      url: "/",
     },
   ];
 
@@ -66,7 +67,7 @@ function ContentCardsSection(props) {
         />
         <Grid container={true} justifyContent="center" spacing={4}>
           {items.map((item, index) => (
-            <Grid item={true} xs={24} md={12} lg={6} key={index}>
+            <Grid item={true} xs={12} md={12} lg={6} key={index}>
               <Card>
                 <Link href={item.url} passHref={true}>
                   <CardActionArea component="a">
