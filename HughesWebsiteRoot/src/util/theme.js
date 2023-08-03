@@ -44,14 +44,14 @@ const themeConfig = {
       primary: {
         // Same as in light but we could
         // adjust color hue if needed
-        main: "#FFB700",
+        main: colors.indigo["500"],
       },
       secondary: {
-        main: "#FFFF",
+        main: colors.pink["500"],
       },
       background: {
-        default: "#FFFF",
-        paper: "#FFFF",
+        default: colors.grey["900"],
+        paper: colors.grey["800"],
       },
     },
   },

@@ -13,7 +13,7 @@ function IndexPage(props) {
       <Navbar
         color="primary"
         logo="https://drive.google.com/uc?export=view&id=10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd"
-        logoInverted="https://drive.google.com/uc?export=view&id=10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd"
+        logoInverted="https://uploads.divjoy.com/logo-white.svg"
       />
       <HeroSection
         bgColor="default"
@@ -24,7 +24,7 @@ function IndexPage(props) {
         image="https://drive.google.com/uc?export=view&id=1d4qXcDAgCwgsInKXdmuH4DvRg9nBT6C8"
         buttonText="Get a Quote!"
         buttonColor="primary"
-        buttonPath="\contactus"
+        buttonPath="/pricing"
       />
       <ContentCardsSection
         bgColor="primary"
@@ -36,7 +36,7 @@ function IndexPage(props) {
       />
       <ContactSection
         bgColor="default"
-        size="small"
+        size="medium"
         bgImage=""
         bgImageOpacity={1}
         title="Contact Us"

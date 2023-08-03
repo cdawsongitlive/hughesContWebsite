@@ -13,8 +13,8 @@ import SectionHeader from "components/SectionHeader";
 
 const useStyles = makeStyles((theme) => ({
   media: {
-    height: 200,
-    
+    height: 400,
+    width: 650,
   },
 }));
 
@@ -24,30 +24,30 @@ function ContentCardsSection(props) {
   const items = [
     {
       image:
-        "https://drive.google.com/uc?export=view&id=1X2FmyGGhcGDHyz92yI5ramFBbYzuEGq2",
+        "https://drive.google.com/uc?export=view&id=1iWLhfq9pnlZNf0nNdaL6_wTfl1ffGCiy",
       title: "Finish Basements",
-	  url: "/contactus",
+      url: "/post/golden-gate",
     },
     {
       image:
-        "https://drive.google.com/uc?export=view&id=1X2FmyGGhcGDHyz92yI5ramFBbYzuEGq2",
+        "https://drive.google.com/uc?export=view&id=1-lbU74zAQOs8WJYHGW6-e44WPhfcX9BT",
       title: "Outdoor Decks",
-	  url: "/",
 
+      url: "/post/beach",
     },
     {
       image:
-        "https://drive.google.com/uc?export=view&id=1X2FmyGGhcGDHyz92yI5ramFBbYzuEGq2",
-      title: "Metal Studs",
-	  url: "/",
-   
+        "https://drive.google.com/uc?export=view&id=19PUlsQUWYc6gJUSxPlzYVK0J2RaRfdmS",
+      title: "Metal Studs and Drywall",
+
+      url: "/post/road",
     },
     {
       image:
-        "https://drive.google.com/uc?export=view&id=1X2FmyGGhcGDHyz92yI5ramFBbYzuEGq2",
+        "https://drive.google.com/uc?export=view&id=1CKZEg086O8inmJRI-DacNZn45OHgToql",
       title: "Kitchen and Bath",
-	  url: "/",
-  
+
+      url: "/post/ballons",
     },
   ];
 
@@ -67,7 +67,7 @@ function ContentCardsSection(props) {
         />
         <Grid container={true} justifyContent="center" spacing={4}>
           {items.map((item, index) => (
-            <Grid item={true} xs={6} md={6} lg={3} key={index}>
+            <Grid item={true} xs={24} md={12} lg={6} key={index}>
               <Card>
                 <Link href={item.url} passHref={true}>
                   <CardActionArea component="a">
