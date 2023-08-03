@@ -14,7 +14,6 @@ import SectionHeader from "components/SectionHeader";
 const useStyles = makeStyles((theme) => ({
   media: {
     height: 200,
- ,
   },
 }));
 
