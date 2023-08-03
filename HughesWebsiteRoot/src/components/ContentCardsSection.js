@@ -26,7 +26,7 @@ function ContentCardsSection(props) {
       image:
         "https://drive.google.com/uc?export=view&id=1X2FmyGGhcGDHyz92yI5ramFBbYzuEGq2",
       title: "Finish Basements",
-	  url: "/contacus",
+	  url: "/contactus",
     },
     {
       image:
@@ -67,7 +67,7 @@ function ContentCardsSection(props) {
         />
         <Grid container={true} justifyContent="center" spacing={4}>
           {items.map((item, index) => (
-            <Grid item={true} xs={12} md={6} lg={3} key={index}>
+            <Grid item={true} xs={6} md={6} lg={3} key={index}>
               <Card>
                 <Link href={item.url} passHref={true}>
                   <CardActionArea component="a">
