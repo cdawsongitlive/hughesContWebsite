@@ -8,9 +8,8 @@ function ContactusPage(props) {
     <>
       <Meta title="Contactus" />
       <Navbar
-        color="primary"
-        logo="https://lh3.google.com/u/0/d/10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd=w1920-h838-iv1"
-        logoInverted="https://lh3.google.com/u/0/d/10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd=w1920-h838-iv1"
+        color="/logocut.png"
+        logoInverted="/logocut.png"
       />
       <ContactSection2
         bgColor="default"
