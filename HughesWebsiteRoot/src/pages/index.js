@@ -12,7 +12,7 @@ function IndexPage(props) {
       <Meta />
       <Navbar
         color="primary"
-        logo="https://drive.google.com/uc?export=view&id=10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd"
+        logo="https://lh3.google.com/u/0/d/10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd=w1920-h838-iv1"
         logoInverted="https://uploads.divjoy.com/logo-white.svg"
       />
       <HeroSection
