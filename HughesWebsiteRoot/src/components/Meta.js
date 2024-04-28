@@ -11,7 +11,7 @@ function Meta(props) {
     // Site name
     siteName: "Hughes Contracting",
     // Your production domain (example: https://myapp.com)
-    domain: "",
+    domain: "https://www.hughes-contracting.com/",
     // Your Twitter handle (example: @divjoy)
     twitterHandle: "",
   };
