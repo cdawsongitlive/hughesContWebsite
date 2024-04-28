@@ -7,7 +7,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link href="/favicon.ico" rel="shortcut icon" />
+          <link href="/logocut.png" rel="shortcut icon" />
 
           {/* Uncomment to add favicons for other platforms */}
           {/* These files can be generated with realfavicongenerator.net */}
