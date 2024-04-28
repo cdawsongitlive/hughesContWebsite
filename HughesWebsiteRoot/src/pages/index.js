@@ -13,7 +13,7 @@ function IndexPage(props) {
       <Navbar
         color="primary"
         logo="https://lh3.google.com/u/0/d/10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd=w1920-h838-iv1"
-        logoInverted="https://uploads.divjoy.com/logo-white.svg"
+        logoInverted="https://lh3.google.com/u/0/d/10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd=w1920-h838-iv1"
       />
       <HeroSection
         bgColor="default"
@@ -51,8 +51,8 @@ function IndexPage(props) {
         bgImage=""
         bgImageOpacity={1}
         copyright={`© ${new Date().getFullYear()} Company`}
-        logo="https://drive.google.com/uc?export=view&id=10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd"
-        logoInverted="https://drive.google.com/uc?export=view&id=10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd"
+        logo="https://lh3.google.com/u/0/d/10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd=w1920-h838-iv1"
+        logoInverted="https://lh3.google.com/u/0/d/10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd=w1920-h838-iv1"
         sticky={true}
       />
     </>
