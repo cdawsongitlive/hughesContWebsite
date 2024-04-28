@@ -23,7 +23,7 @@ function ContentCardsSection(props) {
 
   const items = [
     {
-      image: "\basement.jpg",
+      image: "\basement231.jpg",
       title: "Fi2nish Basements",
       url: "/",
     },
