@@ -24,27 +24,27 @@ function ContentCardsSection(props) {
   const items = [
     {
       image:
-        "https://drive.google.com/uc?export=view&id=1EBUqU5lvTAbxGgelU289bb-ZqZI3CIRa",
+        "https://lh3.google.com/u/0/d/18UkXL9m9YmorysLlz_dl2AKQrA0aQGLH=w1920-h838-iv1",
       title: "Finish Basements",
       url: "/",
     },
     {
       image:
-        "https://drive.google.com/uc?export=view&id=1lJAqWNzt1_rPIrHlXn0OFBXK_cP4mzgA",
+        "https://lh3.google.com/u/0/d/1-lbU74zAQOs8WJYHGW6-e44WPhfcX9BT=w1920-h838-iv1",
       title: "Decks",
 
       url: "/",
     },
     {
       image:
-        "https://drive.google.com/uc?export=view&id=1fig1j7UdW4mObADc3yCdlPL7oIKb0IY-",
+        "https://lh3.google.com/u/0/d/19PUlsQUWYc6gJUSxPlzYVK0J2RaRfdmS=w1920-h838-iv1",
       title: "Metal Studs and Drywall",
 
       url: "/",
     },
     {
       image:
-        "https://drive.google.com/uc?export=view&id=1X2FmyGGhcGDHyz92yI5ramFBbYzuEGq2",
+        "https://lh3.google.com/u/0/d/1nkPOIo0oIC1jAA2V9YEYv-_did26rDsT=w1920-h838-iv1",
       title: "Kitchen and Bath",
 
       url: "/",
