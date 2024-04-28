@@ -12,8 +12,8 @@ function IndexPage(props) {
       <Meta />
       <Navbar
         color="primary"
-        logo="https://lh3.google.com/u/0/d/10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd=w1920-h838-iv1"
-        logoInverted="https://lh3.google.com/u/0/d/10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd=w1920-h838-iv1"
+        logo="\logocut.png"
+        logoInverted="\logocut.png"
       />
       <HeroSection
         bgColor="default"
@@ -51,8 +51,8 @@ function IndexPage(props) {
         bgImage=""
         bgImageOpacity={1}
         copyright={`© ${new Date().getFullYear()} Company`}
-        logo="https://lh3.google.com/u/0/d/10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd=w1920-h838-iv1"
-        logoInverted="https://lh3.google.com/u/0/d/10rzxELgLoFbXhwUYBem8oxjwRcZsWfVd=w1920-h838-iv1"
+        logo="\logocut.png"
+        logoInverted="\logocut.png"
         sticky={true}
       />
     </>
