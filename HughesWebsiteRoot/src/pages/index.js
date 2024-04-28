@@ -21,7 +21,7 @@ function IndexPage(props) {
         bgImage=""
         bgImageOpacity={1}
         subtitle="Hughes Contracting is a general contracting company based out of Raynham, MA that handles both commercial and residential projects. We can handle all aspects of your project from demolition to the finish product and everything in-between. Our main goal is to ensure our customers are happy by delivering the highest quality product while maintaining timely communication."
-        image="https://lh3.google.com/u/0/d/1d4qXcDAgCwgsInKXdmuH4DvRg9nBT6C8=w1920-h838-iv1"
+        image="\biglogo.jpg"
         buttonText="Get a Quote!"
         buttonColor="primary"
         buttonPath="/contactus"

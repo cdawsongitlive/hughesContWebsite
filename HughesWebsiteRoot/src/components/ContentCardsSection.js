@@ -24,27 +24,27 @@ function ContentCardsSection(props) {
   const items = [
     {
       image:
-        "https://lh3.google.com/u/0/d/18UkXL9m9YmorysLlz_dl2AKQrA0aQGLH=w1920-h838-iv1",
+        "\basement23.jpg",
       title: "Finish Basements",
       url: "/",
     },
     {
       image:
-        "https://lh3.google.com/u/0/d/1-lbU74zAQOs8WJYHGW6-e44WPhfcX9BT=w1920-h838-iv1",
+        "\decks4.jpg",
       title: "Decks",
 
       url: "/",
     },
     {
       image:
-        "https://lh3.google.com/u/0/d/19PUlsQUWYc6gJUSxPlzYVK0J2RaRfdmS=w1920-h838-iv1",
+        "\metal.jpg",
       title: "Metal Studs and Drywall",
 
       url: "/",
     },
     {
       image:
-        "https://lh3.google.com/u/0/d/1nkPOIo0oIC1jAA2V9YEYv-_did26rDsT=w1920-h838-iv1",
+        "\kitch.jpg",
       title: "Kitchen and Bath",
 
       url: "/",
